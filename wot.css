@@ -20,7 +20,7 @@ html, body {
 
 h1 {
   font-size: 4rem;
-  color: rgba(4, 134, 0, 0.911);
+  color: rgb(192, 81, 7);
   position: absolute;
   left: 50%;
   top: 20%;
@@ -46,21 +46,11 @@ h1 {
   transform: translateX(-50%);
 }
 
-.split.left .button:hover {
-  background-color: var(--left-button-hover-color);
-  border-color: var(--left-button-hover-color);
-}
-
-.split.right .button:hover {
-  background-color: var(--right-button-hover-color);
-  border-color: var(--right-button-hover-color);
-}
-
 .container {
   position: relative;
   width: 100%;
   height: 100%;
-  background: url('images/programmer.png') center center no-repeat;
+  background: url('images/ai_bot.jpg') center center no-repeat;  
   background-size: cover;
 }
 
@@ -69,38 +59,6 @@ h1 {
   width: 50%;
   height: 100%;
   overflow: hidden;
-}
-
-.split.left {
-  left:0;
-  background: url('https://image.ibb.co/m56Czw/designer.jpg') center center no-repeat;
-  background-size: cover;
-}
-
-.split.left:before {
-  position:absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: var(--left-bg-color);
-}
-
-.split.right {
-  right:0;
-  background: url('https://image.ibb.co/m3ZbRb/programmer.png') center center no-repeat;
-  background-size: cover;
-}
-
-.split.right:before {
-  position:absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: var(--right-bg-color);
-}
-
-.split.left, .split.right, .split.right:before, .split.left:before {
-  transition: var(--speed) all ease-in-out;
 }
 
 
